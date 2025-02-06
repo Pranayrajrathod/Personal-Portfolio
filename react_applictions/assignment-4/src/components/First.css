@@ -1,0 +1,6 @@
+.raja{
+    display: flex;
+}
+h1{
+    flex-wrap: wrap;
+}
