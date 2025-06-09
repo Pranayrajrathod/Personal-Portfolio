@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/' classname="nav-link">
+        <NavLogo to='/'>
           <a href='#' style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>My Portfolio</Span>
           </a>
