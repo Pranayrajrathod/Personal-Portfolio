@@ -104,6 +104,10 @@ export const skills = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRC2C9EVtvZjW_wQ3f9bEP2Fgla230C3kVYQ&s",
       },
       {
+        name: "OpenCV",
+        image: "OpenCV.png",
+      },
+      {
         name: "Google Colab",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvyuHWMd6UOi4d_oVuHTBZsGvS7kG6TFK2yQ&s",
       },
@@ -290,7 +294,7 @@ export const education = [
     school: "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering andd Technology, Hyderabad",
     date: "August 2023 - May 2027 (expected)",
     grade: "9.45 CGPA",
-    desc: "I am pursuing my Graduation at VNR VJIET in the field of CSE with specilisation in AI and ML ",
+    desc: "I'm currently pursuing my undergraduate degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning at VNR VJIET.",
     degree: "Computer Science Engineering (Artificial Intelligence and Machine Learning)",
   },
   {
@@ -308,7 +312,7 @@ export const education = [
     school: "ST. Anthony's hign school, Vidyanagar, Sangareddy",
     date: "Jun 2011 - May 2021",
     grade: "10 CGPA",
-    desc: "My schooling mostly was done in sangareddy where I studied from 1st class to my 10th",
+    desc: "Completed primary and secondary education (Grades 1–10) in Sangareddy, laying a strong academic foundation.",
     degree: "SSC",
   },  
 ];
@@ -426,19 +430,19 @@ export const projects = [
     github: "https://github.com/Pranayrajrathod/mern-project-wasteReportingSystem",
     webapp: "https://github.com/Pranayrajrathod/mern-project-wasteReportingSystem",
   },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
+  {
+    id: 10,
+    title: "Face and Eye Detection",
+    date: "Jun 2025",
+    description:
+      "Using OpenCV to detect faces and eyes from web cam and images uploaded. I have used haar cascade classifier to detect faces and eyes",
+    image:
+      "LiveFaceAnd EyeDetection.png",
+    tags: ["OpenCV", "HaarCascade", "Machine Learning","Computer Vision"],
+    category: "machine learning",
+    github: "https://github.com/Pranayrajrathod/FaceAndEyeDetection",
+    webapp: "https://github.com/Pranayrajrathod/FaceAndEyeDetection",
+  },
   // {
   //   id: 4,
   //   title: "Whatsapp Clone",
