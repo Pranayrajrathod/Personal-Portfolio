@@ -13,8 +13,13 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
+<<<<<<< HEAD
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+=======
+          <a href='#' style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+            <DiCssdeck size="3rem" /> <Span>My Portfolio</Span>
+>>>>>>> 4aa7a2e90d75af12ffca49889b9e91f950ee0fe5
           </a>
         </NavLogo>
         <MobileIcon>
