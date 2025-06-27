@@ -103,7 +103,6 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.leetcode} target="display"><ComputerIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2025 Pranay Raj Rathod

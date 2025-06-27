@@ -12,8 +12,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1FHwMMOMVFdxs7d-0p_Uass0JmANDntBe/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/pranay-raj-rathod-pathlavath-ab2271289//",
   twitter: "https://x.com/PranayRaj374460",
-  insta: "https://www.instagram.com/pranay_raj_rathod/",
-  leetcode: "https://leetcode.com/u/pranay_raj_rathod/",
+  insta: "https://www.instagram.com/pranay_raj_rathod/"
 };
 
 export const skills = [
