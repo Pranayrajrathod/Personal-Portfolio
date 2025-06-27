@@ -510,10 +510,34 @@ export const projects = [
   },
 ];
 
+export const codingProfiles = [
+  {
+    platform: "LeetCode",
+    username: "Pranayrajrathod",
+    description: "LeetCode rating: 1575 with 220+ problems solved across all difficulty levels. Participated in 25+ contests and ranked in the top 27% globally, demonstrating consistency and strong problem-solving skills.",
+    link: "https://leetcode.com/u/pranay_raj_rathod/",
+    tags: ["DSA", "Contests", "Algorithms", "LeetCode"],
+  },
+  {
+    platform: "CodeChef",
+    username: "pranay_01",
+    description: "1⭐ Division 4 coder on CodeChef with 150+ problems solved. Participated in 20+ contests to build strong fundamentals in competitive programming.",
+    link: "https://www.codechef.com/users/pranay_raj09",
+    tags: ["Competitive Programming", "Problem Solving", "CodeChef"],
+  },
+  {
+    platform: "Codeforces",
+    username: "pranayraj",
+    description: "Engaged in Div 3 and Div 2 contests with a peak rating of 946. Practicing algorithms and participating regularly in contests.",
+    link: "https://codeforces.com/profile/pranayraj904",
+    tags: ["Competitive Programming", "Contests", "Codeforces"],
+  },
+];
+
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  // { year: 2021, text: "Completed my SSC" },
+  { year: 2021, text: "Joined IIIT Basar, pursued Pre University Course" },
+  { year: 2023, text: "Joined VNR VJIET to pursue BTech in CSE-AI&ML" },
+  { year: 2024, text: "Started Building projects" },
+  { year: 2025, text: "Created my portfolio" },
 ];

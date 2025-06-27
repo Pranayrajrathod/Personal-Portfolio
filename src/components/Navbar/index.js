@@ -3,6 +3,7 @@ import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, B
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
+import { Link as LinkR } from 'react-router-dom';
 // import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 
@@ -12,11 +13,12 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
-        </NavLogo>
+      <NavLogo to="/">
+        <LinkR to="/" style={{ display: "flex", alignItems: "center", color: "white", textDecoration: 'none' }}>
+          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+        </LinkR>
+      </NavLogo>
+
         <MobileIcon>
           <FaBars onClick={() => {
             setIsOpen(!isOpen)
@@ -25,6 +27,7 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
+          <NavLink href="#coding-profiles">CodingProfiles</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
@@ -41,6 +44,9 @@ const Navbar = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
+            <MobileLink href="#coding-profiles" onClick={() => setIsOpen(!isOpen)}>
+              Coding
+            </MobileLink>
             <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
             }}>Experience</MobileLink>
