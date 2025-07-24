@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Pranayrajrathod",
   resume:
-    "https://drive.google.com/file/d/1FHwMMOMVFdxs7d-0p_Uass0JmANDntBe/view?usp=sharing",
+    "https://drive.google.com/file/d/1KdJiXuvZQGUHR3FN_jDTeWpPyv4pSSoN/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/pranay-raj-rathod-pathlavath-ab2271289//",
   twitter: "https://x.com/PranayRaj374460",
   insta: "https://www.instagram.com/pranay_raj_rathod/"
@@ -513,21 +513,21 @@ export const codingProfiles = [
   {
     platform: "LeetCode",
     username: "Pranayrajrathod",
-    description: "LeetCode rating: 1575 with 220+ problems solved across all difficulty levels. Participated in 25+ contests and ranked in the top 27% globally, demonstrating consistency and strong problem-solving skills.",
+    description: "solved over 220+ questions and participated in many contests. Click to view profile",
     link: "https://leetcode.com/u/pranay_raj_rathod/",
     tags: ["DSA", "Contests", "Algorithms", "LeetCode"],
   },
   {
     platform: "CodeChef",
     username: "pranay_01",
-    description: "1⭐ Division 4 coder on CodeChef with 150+ problems solved. Participated in 20+ contests to build strong fundamentals in competitive programming.",
+    description: "Regularly participating in contests. Click to view profile",
     link: "https://www.codechef.com/users/pranay_raj09",
     tags: ["Competitive Programming", "Problem Solving", "CodeChef"],
   },
   {
     platform: "Codeforces",
     username: "pranayraj",
-    description: "Engaged in Div 3 and Div 2 contests with a peak rating of 946. Practicing algorithms and participating regularly in contests.",
+    description: "Engaged in many contests. Click to view profile",
     link: "https://codeforces.com/profile/pranayraj904",
     tags: ["Competitive Programming", "Contests", "Codeforces"],
   },
