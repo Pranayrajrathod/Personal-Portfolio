@@ -391,7 +391,7 @@ export const projects = [
   // },
   {
     id: 2,
-    title: "Crop Prediction",
+    title: "Crop Recommendation",
     date: "March 2025",
     description:
       "Trained a Random Forest model to predict the crop based on the parameters like humidity, Temperature, Nitrogen, Potassium and few factors in the soil and at the place. The model reached an accuracy of 99.3%",
