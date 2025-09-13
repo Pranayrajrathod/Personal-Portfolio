@@ -389,7 +389,7 @@ export const projects = [
         name: "Janardhan R",
         img: "https://media.licdn.com/dms/image/v2/D4E03AQHiSVpD1juZ2g/profile-displayphoto-shrink_400_400/B4EZR9QumGGcAg-/0/1737268325668?e=1760572800&v=beta&t=g8Lft1g6AwqN_viv8Xy65PYjcMAjVu1BzGzx4_4tgus",
         linkedin: "https://www.linkedin.com/in/janardhan93/",
-        github: "https://github.com/janardhan-93",
+        github: "https://github.com/Janardhan-225",
       },
     ],
   },
