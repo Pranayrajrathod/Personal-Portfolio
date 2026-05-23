@@ -187,6 +187,25 @@ export const experiences = [
   {
     id: 0,
     img: "",
+    role: "Software Developer Intern",
+    company: "AlphaGo Research LLP",
+    date: "Jul 2025 – Nov 2025",
+    desc: "Developed an automated Python-based system to collect and organize real-time financial data from NSE and BSE RSS feed announcements with a continuous 2-minute polling mechanism. Built a scalable cloud data pipeline using AWS S3 and EC2 for efficient storage and synchronization. Automated deployments using CRON and AWS scheduling to ensure continuous and reliable operation, while collaborating with the team to resolve data handling and system optimization challenges.",
+    skills: [
+      "Python",
+      "Data Engineering",
+      "AWS S3",
+      "AWS EC2",
+      "CRON Jobs",
+      "RSS Feeds",
+      "Automation",
+      "Cloud"
+    ],
+  }
+  ,
+  {
+    id: 1,
+    img: "",
     role: "Hackathon Finalist",
     company: "Hack4SDG IIT Hyd",
     date: "26 Oct 2024 - 27 Oct 2024",
@@ -203,7 +222,7 @@ export const experiences = [
     doc: "hack4sdg.png",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://bcopbapatla.in/wp-content/uploads/61cf-fMKNzL.jpg",
     role: "NSS Volunteer",
     company: "National Service Scheme (NSS)",
@@ -393,13 +412,52 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 6,
+    title: "TOS Analyzer - Decoding Terms of service",
+    date: "Oct 2025",
+    description:
+      "Built a full-stack AI-powered web application that simplifies complex legal documents such as Terms of Service and Privacy Policies into clear, actionable insights. The system extracts text from PDFs and images using OCR, generates plain-English summaries, identifies and color-codes risky clauses, and provides a context-aware AI chatbot for follow-up legal queries. All analyzed documents are securely stored for future reference.",
+    image:"TOSAnalyser.png",
+    tags: [
+      "React",
+      "Flask",
+      "Generative AI",
+      "NLP",
+      "OCR",
+      "MongoDB",
+      "Legal AI"
+    ],
+    category: "web app",
+    github: "https://github.com/Pranayrajrathod/LegalDocumentDemystification",
+    webapp: "https://legal-document-demystification.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "KiranaLink, Rural Kirana Store Management System",
+    date: "Feb 2026",
+    description: "Developed a full-stack MERN web application to digitize small-scale retail shops. The platform integrates a digital billing system, real-time inventory tracking, and an automated Khata Book ledger for customer credit management. Features a voice-enabled Google Gemini AI assistant for conversational business insights, backed by secure multi-role authentication to protect shopkeeper and customer transaction records.",
+    image: "KiranaLink.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Generative AI",
+      "Gemini API"
+    ],
+    category: "web app",
+    github: "https://github.com/Pranayrajrathod/KiranaLink",
+    webapp: "https://github.com/Pranayrajrathod/KiranaLink",
+  }
+  
 ];
 
 export const codingProfiles = [
   {
     platform: "LeetCode",
-    username: "Pranayrajrathod",
-    description: "solved over 220+ questions and participated in many contests. Click to view profile",
+    username: "Pranay_raj_rathod",
+    description: "solved over 350+ problems with max contest rating 1673. Click to view profile",
     link: "https://leetcode.com/u/pranay_raj_rathod/",
     tags: ["DSA", "Contests", "Algorithms", "LeetCode"],
   },
@@ -423,5 +481,6 @@ export const TimeLineData = [
   { year: 2021, text: "Joined IIIT Basar, pursued Pre University Course" },
   { year: 2023, text: "Joined VNR VJIET to pursue BTech in CSE-AI&ML" },
   { year: 2024, text: "Started Building projects" },
-  { year: 2025, text: "Created my portfolio" }, 
+  { year: 2025, text: "Created my portfolio" },
+  { year: 2026, text: "Seeking to begin my proffessional career" },
 ];
